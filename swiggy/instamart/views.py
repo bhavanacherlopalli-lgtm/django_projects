@@ -8,7 +8,7 @@ def chocolate(request):
     return HttpResponse('Eat fivestar do nothing')
 
 
-def Icecream(request):
+def icecream(request):
     return HttpResponse('chocolate is better than the vanilla')
     
 

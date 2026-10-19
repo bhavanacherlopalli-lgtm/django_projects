@@ -16,10 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-import food,instamart
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('food/',include('food.urls')),
-    path('instamart/',include(instamart.urls)),
+    path('instamart/',include('instamart.urls')),
 ]
