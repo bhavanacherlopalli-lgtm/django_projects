@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Display Topics</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>topic_name</th>
+        </tr>
+        {% for TO in QSLTO %}
+        <tr>
+            <td>
+                {{TO.topic_name}}
+            </td>
+        </tr>
+        {% end for %}
+    </table>
+</body>
+</html>

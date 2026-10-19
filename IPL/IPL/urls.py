@@ -22,5 +22,5 @@ import RCB,CSK,MI
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('CSK/',include('CSK.urls')),
-    path('RCB/',include('RCB.urls'))
+    path('RCB/',include('RCB.urls')),
 ]

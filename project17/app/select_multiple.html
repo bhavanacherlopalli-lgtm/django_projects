@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>select_multiple</h1>
+        <form method="post">
+            {% csrf_token %}
+            <label for="topic">
+                Select Your Topics
+            </label>
+            <select name="topics" id="topics" multiple>
+                {% endfor %}
+            </select>
+            <br></br>
+            <input type="submit" value="select_multiple">
+        </form>
+    </center>
+</body>
+</html>
